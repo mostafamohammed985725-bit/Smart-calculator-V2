@@ -1,0 +1,34 @@
+.history-container {
+    margin-top: 20px;
+    background: #252525;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #444;
+    width: 100%;
+}
+
+.history-container h4 {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    color: #888;
+    text-align: right;
+}
+
+#history-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+#history-list li {
+    padding: 5px 0;
+    border-bottom: 1px solid #333;
+    color: #0f0; /* لون أخضر يشبه شاشات البرمجة القديمة */
+    font-family: monospace;
+    font-size: 13px;
+}
+
+#history-list li:last-child {
+    border-bottom: none;
+}
